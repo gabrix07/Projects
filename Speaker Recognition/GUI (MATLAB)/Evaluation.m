@@ -1,9 +1,9 @@
-function varargout = Audioprobe(varargin)
+function varargout = Evaluation(varargin)
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
-                   'gui_OpeningFcn', @Audioprobe_OpeningFcn, ...
-                   'gui_OutputFcn',  @Audioprobe_OutputFcn, ...
+                   'gui_OpeningFcn', @Evaluation_OpeningFcn, ...
+                   'gui_OutputFcn',  @Evaluation_OutputFcn, ...
                    'gui_LayoutFcn',  [] , ...
                    'gui_Callback',   []);
 if nargin && ischar(varargin{1})
@@ -18,13 +18,13 @@ end
 % End initialization code - DO NOT EDIT
 
 
-% --- Executes just before Audioprobe is made visible.
-function Audioprobe_OpeningFcn(hObject, eventdata, handles, varargin)
+% --- Executes just before Evaluation is made visible.
+function Evaluation_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-% varargin   command line arguments to Audioprobe (see VARARGIN)
+% varargin   command line arguments to Evaluation (see VARARGIN)
 axes(handles.axes4)
 matlabImage = imread([pwd ,'\images\player_record2.png']);
 image(matlabImage)
@@ -42,18 +42,18 @@ axis off
 axis image
 
 
-% Choose default command line output for Audioprobe
+% Choose default command line output for Evaluation
 handles.output = hObject;
 
 % Update handles structure
 guidata(hObject, handles);
 
-% UIWAIT makes Audioprobe wait for user response (see UIRESUME)
+% UIWAIT makes Evaluation wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
 
 % --- Outputs from this function are returned to the command line.
-function varargout = Audioprobe_OutputFcn(hObject, eventdata, handles) 
+function varargout = Evaluation_OutputFcn(hObject, eventdata, handles) 
 % varargout  cell array for returning output args (see VARARGOUT);
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
