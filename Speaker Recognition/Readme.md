@@ -22,8 +22,13 @@ For this it is necessary to have a **microphone** and **Matlab**. All you have t
 
 ## Results
 
-| Classification Method | Number of Speakers | Speaker rate recognition |
+| Classification Method | Number of Speakers | Speaker Recognition |
 | ------------- |------------- | ----- |
-
-
-
+| VQ |5 | 87% |
+| GMM |5 | 88% |
+| ANN (superviced) |5 | 89% |
+| ANN (unsuperviced)|5 | 85% |
+| VQ |10 | 79% |
+| GMM |10 | 79% |
+| ANN (superviced) |10 | 83% |
+| ANN (unsuperviced)|1o | 70% |
