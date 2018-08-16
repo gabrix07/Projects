@@ -22,10 +22,8 @@ For this it is necessary to have a **microphone** and **Matlab**. All you have t
 
 ## Results
 
-
-
-
-
+| Classification Method | Number of Speakers | Speaker rate recognition |
+| ------------- |------------- | ----- |
 
 
 
