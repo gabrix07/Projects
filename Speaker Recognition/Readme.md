@@ -1,8 +1,9 @@
 # Speaker Recognition
 
-The aim of this project is to create system that should recognize the speaker by using voice data. This system could classify different speakers through artificial neural network. The neural network was trained by unsupervised learning, in addition to simulate
-an analogous neural network, which was formed by memristors, resistances and electric capacitors. This classification method was analysed and finally compared to other methods commonly used in
-speaker recognition:
+The aim of this project is to create system that should recognize the speaker by using voice data. This system could classify different 
+speakers through artificial neural network. The neural network was trained by unsupervised learning, in addition to simulate
+an analogous neural network, which was formed by memristors, resistances and electric capacitors. This classification method 
+was analysed and finally compared to other methods commonly used in speaker recognition:
 
 * Vector quantization - 32 Vectors
 * Gaussian Mixture Models - 4 Gaussian
@@ -34,7 +35,8 @@ For this it is necessary to have a **microphone** and **Matlab**. All you have t
 | ANN (unsuperviced)|10 | 70% |
 
 
+
 Speaker recognition rate as function of the time of the test sequence:
 <img src="Hebbvsback.png" alt="drawing" width="500px"/>
 
-
+In the graph you can see the results between a simulated analog neural network (unsupervised learning) and a digital neural network (superviced learning).
