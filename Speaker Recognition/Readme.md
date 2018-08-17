@@ -4,9 +4,9 @@ The aim of this project is to create system that should recognize the speaker by
 an analogous neural network, which was formed by memristors, resistances and electric capacitors. This classification method was analysed and finally compared to other methods commonly used in
 speaker recognition:
 
-* Vector quantization
-* Gaussian Mixture Models
-* Neural Network (superviced learning)
+* Vector quantization - 32 Vectors
+* Gaussian Mixture Models - 4 Gaussian
+* Neural Network (superviced learning) - 64 hidden neurons
 
 The programs were written in **Matlab**
 
@@ -28,7 +28,9 @@ For this it is necessary to have a **microphone** and **Matlab**. All you have t
 | GMM |5 | 88% |
 | ANN (superviced) |5 | 89% |
 | ANN (unsuperviced)|5 | 85% |
-| VQ |10 | 79% |
+| VQ |10 | 79% |"
 | GMM |10 | 79% |
 | ANN (superviced) |10 | 83% |
 | ANN (unsuperviced)|10 | 70% |
+
+![alt text](https://github.com/gabrix07/Projects/tree/master/Speaker%20Recognition/Hebbvsback.png "Logo Title Text 1")
