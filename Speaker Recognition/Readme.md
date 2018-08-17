@@ -33,6 +33,8 @@ For this it is necessary to have a **microphone** and **Matlab**. All you have t
 | ANN (superviced) |10 | 83% |
 | ANN (unsuperviced)|10 | 70% |
 
-<img src="Hebbvsback.png" alt="drawing" width="200px"/>
+
+Speaker recognition rate as function of the time of the test sequence:
+<img src="Hebbvsback.png" alt="drawing" width="500px"/>
 
 
