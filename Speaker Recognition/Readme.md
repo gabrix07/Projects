@@ -33,5 +33,5 @@ For this it is necessary to have a **microphone** and **Matlab**. All you have t
 | ANN (superviced) |10 | 83% |
 | ANN (unsuperviced)|10 | 70% |
 
-![my_image](Hebbvsback.png =250x250)
+![my_image](./Hebbvsback.png =250x)
 
