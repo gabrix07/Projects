@@ -33,7 +33,5 @@ For this it is necessary to have a **microphone** and **Matlab**. All you have t
 | ANN (superviced) |10 | 83% |
 | ANN (unsuperviced)|10 | 70% |
 
+![my_image](https://github.com/gabrix07/Projects/tree/master/Speaker%20Recognition/Hebbvsback.png)
 
-<p align="center">
-  <img width="460" height="300" src="https://github.com/gabrix07/Projects/tree/master/Speaker%20Recognition/Hebbvsback.png">
-</p>
